@@ -11,6 +11,6 @@
   "license": "ISC",
   "homepage": "https://github.com/nguyendanny9797/readme-generator",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.4"
   }
 }

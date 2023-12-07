@@ -25,6 +25,7 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please enter the license(s) used, if any, for this project.",
+        choices: ["MIT"]
     },
     {
         type: "input",
@@ -55,7 +56,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), filename), data);
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // TODO: Create a function to initialize app
