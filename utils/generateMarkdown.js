@@ -10,6 +10,24 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
+
+## Description
+${data.description}
+
+## Deployed Application URL
+${data.link}
+
+## Screenshot
+![alt-text](${data.screenshot})
+
+## Features
+${data.features}
+
+## Contributors
+${data.contributors}
+
+## Testing
+${data.test}
 `;
 }
 
