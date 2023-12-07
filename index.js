@@ -9,13 +9,18 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
-        name: "projectTitle",
+        name: "title",
         message: "What is the title of the project?",
     },
     {
         type: "input",
-        name: "projectDescription",
+        name: "description",
         message: "What is the purpose of this project? List any contributors to this project using GitHub usernames.",
+    },
+    {
+        type: "input",
+        name: "screenshot",
+        message: "Please provide a screenshot of the application.",
     },
     {
         type: "checkbox",
@@ -55,7 +60,12 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((responses) => {
+        console.log("Generating README file...");
+        writeToFile("./utils/README.md", generateMarkdown({ ...responses}));
+    });
+}
 
 // Function call to initialize app
 init();
