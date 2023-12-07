@@ -7,6 +7,7 @@ Node and Inquirer are used for this project to help create an application that g
 ## Deployed Application URL
 
 ## Screenshot
+https://1drv.ms/f/s!AvgxjaMhIP8WeU3raufRnBiLUpE?e=rRT7UZ
 
 ## Features
 
