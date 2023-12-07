@@ -1,3 +1,12 @@
-# Professional README Generator Starter Code
+# README.md Generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Description
+This application generates a README markdown file using the responses entered by users from various prompts.
+
+## Languages & Usage
+JavaScript, Node, Inquirer (version 6.3.1), Markdown, JSON
+
+## Contributors
+Myself
+
+## Link to application demo

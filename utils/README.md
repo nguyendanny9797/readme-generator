@@ -7,7 +7,7 @@ Node and Inquirer are used for this project to help create an application that g
 ## Deployed Application URL
 
 ## Screenshot
-![Screenshot (4)](https://github.com/nguyendanny9797/readme-generator/assets/141078565/0483d790-f10f-4e88-a952-d00763c8f547)
+![alt-text](https://github.com/nguyendanny9797/readme-generator/assets/141078565/0483d790-f10f-4e88-a952-d00763c8f547)
 
 ## Features
 

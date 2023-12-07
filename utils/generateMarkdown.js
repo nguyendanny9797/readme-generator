@@ -20,9 +20,6 @@ ${data.link}
 ## Screenshot
 ![alt-text](${data.screenshot})
 
-## Features
-${data.features}
-
 ## Contributors
 ${data.contributors}
 
