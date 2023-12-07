@@ -3,8 +3,11 @@
 ## Description
 This application generates a README markdown file using the responses entered by users from various prompts.
 
-## Languages & Usage
+## Languages
 JavaScript, Node, Inquirer (version 8.2.4), Markdown, JSON
+
+## Usage
+"C:\Users\themo\Downloads\readme-generator-demo.gif"
 
 ## Contributors
 N/A
